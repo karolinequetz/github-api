@@ -46,4 +46,10 @@ margin-top: -5px;
   display:block;
 } 
 `;
- WrapperTabPanel.tabsRole = 'TabPanel'; 
+WrapperTabPanel.tabsRole = 'TabPanel';
+
+export const WrapperList = styled.div`
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+`;
